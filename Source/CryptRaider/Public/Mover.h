@@ -34,5 +34,7 @@ public:
 	bool ShouldMove = false;
 
 	FVector OriginalLocation;
+
+	void SetShouldMove(bool ShouldMove);
 		
 };
